@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Myblog</title>
+        <meta charset="utf-8">
+        
+        <!--CSS------------------------------------------>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        
+        <!--Js-------------------------------------------->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/main.js"></script>        
+        
+        
+    </head>
+    
+    <body>
+        <!----Page header----------------------->
+        
+        <section class="pageheader pageheader-home" style="min-height: 174px;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative; box-sizing: inherit">
+            <!--Page header name-->
+          <header class="header" style="box-sizing: inherit">
+            
+            <div class="header-content row
+                        " style="box-sizing: inherit;">
+              <!--Line logo -->
+              <a class="logo" href="index.html"></a>              
+              <!--Page header social media -->
+              <ul class="header-social" style="list-style: none;
+                       font-size: 23px;
+                       line-height: 1;
+                       margin: 0;
+                       padding: 0;
+                       position: absolute;
+                       left: 20px;
+                       top: 12px;">
+                
+                
+               <li>
+                     <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </li>
+               
+                </ul>
+              
+              <!-- page header search-->
+          <a class="header-search-trigger" href="#0"></a>
+              <div class="header-search" style="display: block;
+    text-align: center;
+    background: #151515;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 900;box-sizing: inherit;margin: 0;
+    padding: 0;">
+                <form role="search" method="get" class="header-search-from" action="#" style=" width: 100%;
+   position: absolute;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);box-sizing: inherit;display: none">
+                  <label>
+                    
+                    <span class="hide-content">search for:</span>  
+                      <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="search for:" autocomplete="off" >
+                   
+                    </label>
+                  <input type="submit" class="search-submit" value="search">
+                  
+                  </form>
+                <a href="0" title="Close search" class="header-overlay-close" style="    position: absolute;
+    display: block;
+    width: 45px;
+    height: 45px;
+    top: 21px;
+    left: 50%;
+    margin-left: -23px;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;">Close</a>
+                </div>
+              
+                
+                <!--page header menu-->
+                
+                <a class="header-toggle-menu" href="#0" title="Menu"  style="display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 6px;">
+                    <span>Menu</span>
+                </a>
+                <nav class="header-nav-wrap" style="margin-top: 15px;border-top: 1px solid rgba(255,255,255,0.04);padding-top: 15px;">
+
+                    <h2 class="header-nav-heading h6">Site Navigation</h2>
+
+                    <ul class="header-nav"  >
+                        <li class="current"><a href="index.html" title="" style="text-decoration: none">Home</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="" style="text-decoration: none">Categories</a>
+                            <ul class="sub-menu">
+                            <li><a href="category.html" style="text-decoration: none">Work</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0" title="" style="text-decoration: none">Blog</a>
+                            <ul class="sub-menu">
+                            <li><a href="single-video.html" style="text-decoration: none">Video Post</a></li>
+                            <li><a href="single-audio.html" style="text-decoration: none">Audio Post</a></li>
+                           
+                            </ul>
+                        </li>
+                        <li><a href="style-guide.html" title="" style="text-decoration: none">Styles</a></li>
+                        <li><a href="about.html" title="" style="text-decoration: none">About</a></li>
+                        <li><a href="contact.html" title="" style="text-decoration: none">Contact</a></li>
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header-overlay-close close-mobile-menu" style="text-decoration: none">Close</a>
+
+                </nav>
+                
+              </div>
+            
+            </header>
+            
+            <!--page header image-->
+      <div class="pageheader-content row">
+            <div class="col-full" style="width: 100%;float: left;padding: 0 20px;">
+
+                <div class="featured" style="background-color: #151515;
+    height: 564px;
+    position: relative;">
+
+                    <div class="featured-column featured-column-big"  style="width: 100%;position: relative;float: left;box-sizing: inherit">
+                        <div class="entry" style="background-image:url('images/wheel-2000.jpg'); ">
+                            
+                            <div class="entry-content">
+                                <span class="entry-category"><a href="#0">Music</a></span>
+
+                                <h1><a href="#0" title="" style="text-decoration: none;">I have found that if you love life,life will love you back.</a></h1>
+
+                                <div class="entry-info">
+                                    <a href="#0" class="entry-profile-pic">
+                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="" style="border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    height: auto;">
+                                    </a>
+
+                                    <ul class="entry-meta">
+                                        <li><a href="#0">Loay Ma</a></li>
+                                        <li>December 29, 2017</li>
+                                    </ul>
+                                </div>
+                            </div> 
+                            
+                        </div> 
+                    </div> 
+                </div>
+                   
+              </div>
+            </div>
+        </section>
+        
+        <!--------------artical----------menu------>
+        <section class="s-content" style="background-color: #f2f2f2;
+    padding-top: 8.4rem;
+    padding-bottom: 1rem;">
+            <div class="row masonry-wrap">
+            <div class="masonry" style="position: relative;
+    height: 1243px;">
+
+                <div class="grid-sizer"></div>
+ <!----------------------------artical-----1------------->
+                <article class="masonry-brick entry format-standard" data-aos="fade-up">
+                        
+                    <div class="entry-thumb">
+                        <a href="single-standard.html" class="entry-thumb-link">
+                            <img src="images/nature1.jpg" 
+                                    srcset="images/nature1.jpg 1x, images/nature1.jpg 2x" alt="">
+                        </a>
+                    </div>
+        <div class="entry-text">
+            <div class="entry-header">
+            <div class="entry-date">
+                
+                <a href="#">december 12,2018</a>
+                
+                 </div>
+                            <h1 class="entry-title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
+                            
+                        </div>
+                        <div class="entry-excerpt">
+                            <p>
+                                The good part about getting older is you stop trying to prove anything to anyone, including yourself. All you are in the pursuit of is collecting experiences - beautiful, fragile little...
+                            </p>
+                        </div>
+                        
+                    </div>
+                
+                </article>
+                <!----------------------artical--------2-------------->
+                 <article class="masonry-brick entry format-standard" data-aos="fade-up">
+                        
+                    <div class="entry-thumb">
+                        <a href="single-standard.html" class="entry-thumb-link">
+                            <img src="images/pexels.jpeg" 
+                                    srcset="images/pexels.jpeg 1x, images/pexels.jpeg 2x" alt="">
+                        </a>
+                    </div>
+        <div class="entry-text">
+            <div class="entry-header">
+            <div class="entry-date">
+                
+                <a href="#">december 12,2018</a>
+                
+                 </div>
+                            <h1 class="entry-title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
+                            
+                        </div>
+                        <div class="entry-excerpt">
+                            <p>
+                                We may not know what each day has in store for us. We could be gone tomorrow. Any minute could truly be our goodbye. But we do have this moment. This time. Today. Right now. It takes way more...
+                            </p>
+                        </div>
+                        
+                    </div>
+                
+                </article>
+              <!----------------------artical------------3---------->
+                 <article class="masonry-brick entry format-standard" data-aos="fade-up">
+                        
+                    <div class="entry-thumb">
+                        <a href="single-standard.html" class="entry-thumb-link">
+                            <img src="images/menu.jpg" 
+                                    srcset="images/menu.jpgmenu.jpg 1x, images/menu.jpg 2x" alt="">
+                        </a>
+                    </div>
+        <div class="entry-text">
+            <div class="entry-header">
+            <div class="entry-date">
+                
+                <a href="#">december 12,2018</a>
+                
+                 </div>
+                            <h1 class="entry-title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
+                            
+                        </div>
+                        <div class="entry-excerpt">
+                            <p>
+                               Knowledge comes, but wisdom lingers. It may not be difficult to store up in the mind a vast quantity of facts within a comparatively short time, but the ability to form judgments requires the severe discipline of ....
+                            </p>
+                        </div>
+                       
+                    </div>
+                
+                </article>
+                
+                
+                </div>
+            
+            
+            
+            
+            
+            </div>
+            
+      
+             <div class="row">
+            <div class="col-full">
+                <nav class="pgn" style="margin: 3rem auto;
+    text-align: center;">
+                    <ul>
+                        <li><a class="pgn__prev" href="#0">Prev</a></li>
+                        <li><a class="pgn__num" href="#0">1</a></li>
+                        <li><a class="pgn__num current" href="#0">2</a></li>
+                        <li><a class="pgn__num" href="#0">3</a></li>
+                        <li><a class="pgn__num" href="#0">4</a></li>
+                        <li><a class="pgn__num" href="#0">5</a></li>
+                        <li><span class="pgn__num dots">…</span></li>
+                        <li><a class="pgn__num" href="#0">8</a></li>
+                        <li><a class="pgn__next" href="#0">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+            
+           
+        
+        
+        </section>
+        <!-----------------footer--------------------------------->
+        
+        
+        <footer class="s-footer" style="padding-top: 10.2rem;
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.4);box-sizing: inherit;">
+
+        <div class="s-footer-main"
+    >
+            <div class="row" >
+                
+                <div class="col-two md-four mob-full s-footer-sitelinks" style="width: 16.66667%;float:left;
+    padding: 0 20px;">
+                        
+                    <h4>Quick Links</h4>
+
+                    <ul class="s-footer-linklist">
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">Styles</a></li>
+                        <li><a href="#0">About</a></li>
+                        <li><a href="#0">Contact</a></li>
+                    </ul>
+
+                </div> 
+
+                    
+                <div class="col-two md-four mob-full s-footer-social"  style="width: 16.66667%;float:left;
+    padding: 0 20px; ">
+                        
+                    <h4>Social</h4>
+
+                    <ul class="s-footer-linklist">
+                        <li><a href="#0">Facebook</a></li>
+                        <li><a href="#0">Twitter</a></li>  
+                        <li><a href="#0">LinkedIn</a></li>
+                    </ul>
+
+                </div> 
+
+                <div class="col-five md-full end s-footer-subscribe" style="float: right;width: 41%;box-sizing: inherit;">
+                        
+                    <h4>Our Newsletter</h4>
+
+                    <p>We work so hard to provide the best works to our customers </p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true" >
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" style="width: 50%;height: 3.8rem;position: absolute;">
+                
+                            <input type="submit" name="subscribe" value="Send">
+                
+                            <label for="mc-email" class="subscribe-message"></label>
+                
+                        </form>
+                    </div>
+
+                </div> 
+
+            </div>
+         
+</div>
+        <div class="s-footer-bottom">
+            <div class="row" style="float: right;margin-bottom: 52px;">
+                <div class="col-full">
+                    <div class="s-footer-copyright">
+                        <span>© Copyright Best Vision</span> 
+                        <span> Loay mannaa </span>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer> 
+  <!----------------------------preloader-------------------->
+  <!--<div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>--->
+
+
+   <!----------------------javascript-------------------------->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    </body></html>
